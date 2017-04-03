@@ -323,7 +323,7 @@ learning_rate = 0.1
 lr = np.linspace(0.01, 0.5, 20)
 
 optimizer = optim.Adam([input], lr=learning_rate)
-optimizer = optim.LBFGS([input], lr=learning_rate)
+
 
 style_graph = []
 content_graph = []
